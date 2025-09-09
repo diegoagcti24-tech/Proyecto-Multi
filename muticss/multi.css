@@ -1,0 +1,73 @@
+body {
+    background-color: #f0f2f5; /* Un color de fondo suave para la página */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para que el contenedor resalte */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px; /* Espacio entre los campos */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#multiplicarBtn {
+    width: 100%;
+    padding: 10px;
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#multiplicarBtn:hover {
+    background-color: #0a58ca; /* Un color más oscuro al pasar el mouse */
+}
+
+#resultado {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #28a745; /* Color verde para el resultado */
+    padding: 15px;
+    border: 2px solid #28a745;
+    border-radius: 5px;
+    background-color: #e2f0e9;
+    display: none; /* Inicialmente oculto, se mostrará con JavaScript */
+}
+
+hr {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-top: 1px solid #ccc;
+}
+
+a {
+    display: block;
+    text-align: center;
+    color: #0d6efd;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
